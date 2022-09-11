@@ -1,0 +1,15 @@
+h1{
+    @extend %estiloParrafo;
+@include fontStyle (gray);
+}
+
+    .prod{
+        display: flex;
+        flex-direction:row ;
+        height: 300px;
+        justify-content: space-around;
+    }
+
+p{
+    margin: 5px;
+}

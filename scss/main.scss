@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fondo)
+}
+//variables
+@import "./variables/tipografia";
+@import "./variables/extend";
+@import "./variables/colores";
+
+
+//secciones
+@import "./secciones/header";
+@import "./secciones/mainindex";
+@import "./secciones/footer";

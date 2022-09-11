@@ -1,0 +1,15 @@
+.footer{
+    &__ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        background-color: gray;
+        li{
+            font-family: $sans-serif;
+            margin: 1rem;
+            color: white;
+            
+        }
+}
+}

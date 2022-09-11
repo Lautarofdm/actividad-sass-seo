@@ -1,0 +1,30 @@
+.header{
+    background-color: $colorPrincipal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        margin-left: 1rem;
+    }
+    &__ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        background-color: $colorPrincipal;
+        &--active{
+            font-weight: 900;
+        }
+        li{
+            font-family: $sans-serif;
+            margin: 1rem;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__img{
+        width: 99vw;
+    }
+}

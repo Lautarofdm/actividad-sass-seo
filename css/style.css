@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Qwitcher+Grypen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../img/fondo); }
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px; }
+
+.header {
+  background-color: #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #808080; }
+    .header__ul--active {
+      font-weight: 900; }
+    .header__ul li {
+      font-family: "Oswald", sans-serif;
+      margin: 1rem; }
+    .header__ul a {
+      color: white;
+      text-decoration: none; }
+  .header__img {
+    width: 99vw; }
+
+h1 {
+  background-color: gray;
+  color: white;
+  text-transform: uppercase; }
+
+.prod {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  justify-content: space-around; }
+
+p {
+  margin: 5px; }
+
+.footer__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  background-color: gray; }
+  .footer__ul li {
+    font-family: "Oswald", sans-serif;
+    margin: 1rem;
+    color: white; }
