@@ -1,0 +1,6 @@
+En las partes que agregue SEO fue en;
+-le agregue un <strong> al h1.
+-le agregue meta keywords.
+-le agregue meta description .
+-le puse su respectivo titulo.
+
